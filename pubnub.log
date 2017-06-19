@@ -101,3 +101,107 @@ D, [2017-06-19T13:56:57.877033 #22619] DEBUG -- Pubnub::Event: Requested URI: ht
 D, [2017-06-19T13:56:57.989559 #22619] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/publish/pub-c-03c504eb-d3d1-439c-9b3e-4c3e6e75123d/sub-c-489eb5e0-550d-11e7-81f3-02ee2ddab7fe/0/chan/0/%22hello%22?ortt=%7B%22t%22%3A14978950178621362%7D&pnsdk=PubNub-Ruby%2F4.0.22&seqn=1&uuid=d3c05872-665c-4a71-b37f-21a31f8485c1
 D, [2017-06-19T13:56:58.002901 #22619] DEBUG -- Pubnub::Event: Event#handle
 D, [2017-06-19T13:56:58.003114 #22619] DEBUG -- Pubnub::Event: Firing callbacks for Pubnub::Publish
+E, [2017-06-19T14:04:17.668957 #22819] ERROR -- : Couldn't cleanly terminate all actors in 10 seconds!
+D, [2017-06-19T14:04:45.159072 #22855] DEBUG -- Pubnub::Client: Created new Pubnub::Client instance. Version: 4.0.22
+D, [2017-06-19T14:04:45.159805 #22855] DEBUG -- Pubnub::Event: Initialized Pubnub::Publish
+D, [2017-06-19T14:04:45.190071 #22855] DEBUG -- Pubnub::Publish: Fired event Pubnub::Publish
+D, [2017-06-19T14:04:45.195166 #22855] DEBUG -- Pubnub::Event: #send_request called
+D, [2017-06-19T14:04:45.195232 #22855] DEBUG -- Pubnub::SingleEvent: #request_dispatcher called
+D, [2017-06-19T14:04:45.195279 #22855] DEBUG -- Pubnub::Client: Looking for requester for async single_event
+D, [2017-06-19T14:04:45.195529 #22855] DEBUG -- Pubnub::Event: #send_request got sender
+D, [2017-06-19T14:04:45.195854 #22855] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/publish/pub-c-03c504eb-d3d1-439c-9b3e-4c3e6e75123d/sub-c-489eb5e0-550d-11e7-81f3-02ee2ddab7fe/0/chan/0/%22hello%22?ortt=%7B%22t%22%3A14978954851598452%7D&pnsdk=PubNub-Ruby%2F4.0.22&seqn=1&uuid=a755f4b3-1a6d-4711-8ac0-f5020d0e2cbc
+D, [2017-06-19T14:04:45.274396 #22855] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/publish/pub-c-03c504eb-d3d1-439c-9b3e-4c3e6e75123d/sub-c-489eb5e0-550d-11e7-81f3-02ee2ddab7fe/0/chan/0/%22hello%22?ortt=%7B%22t%22%3A14978954851598452%7D&pnsdk=PubNub-Ruby%2F4.0.22&seqn=1&uuid=a755f4b3-1a6d-4711-8ac0-f5020d0e2cbc
+D, [2017-06-19T14:04:45.286561 #22855] DEBUG -- Pubnub::Event: Event#handle
+D, [2017-06-19T14:04:45.286819 #22855] DEBUG -- Pubnub::Event: Firing callbacks for Pubnub::Publish
+D, [2017-06-19T14:07:39.739156 #22943] DEBUG -- Pubnub::Client: Created new Pubnub::Client instance. Version: 4.0.22
+D, [2017-06-19T14:07:39.739878 #22943] DEBUG -- Pubnub::Event: Initialized Pubnub::Publish
+D, [2017-06-19T14:07:39.749416 #22943] DEBUG -- Pubnub::Publish: Fired event Pubnub::Publish
+D, [2017-06-19T14:07:39.750794 #22943] DEBUG -- Pubnub::Event: #send_request called
+D, [2017-06-19T14:07:39.750867 #22943] DEBUG -- Pubnub::SingleEvent: #request_dispatcher called
+D, [2017-06-19T14:07:39.750917 #22943] DEBUG -- Pubnub::Client: Looking for requester for async single_event
+D, [2017-06-19T14:07:39.751151 #22943] DEBUG -- Pubnub::Event: #send_request got sender
+D, [2017-06-19T14:07:39.751485 #22943] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/publish/pub-c-03c504eb-d3d1-439c-9b3e-4c3e6e75123d/sub-c-489eb5e0-550d-11e7-81f3-02ee2ddab7fe/0/chan/0/%22hello%22?ortt=%7B%22t%22%3A14978956597399200%7D&pnsdk=PubNub-Ruby%2F4.0.22&seqn=1&uuid=ad61b731-4200-465f-afcd-1e97cc784778
+D, [2017-06-19T14:07:39.832714 #22943] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/publish/pub-c-03c504eb-d3d1-439c-9b3e-4c3e6e75123d/sub-c-489eb5e0-550d-11e7-81f3-02ee2ddab7fe/0/chan/0/%22hello%22?ortt=%7B%22t%22%3A14978956597399200%7D&pnsdk=PubNub-Ruby%2F4.0.22&seqn=1&uuid=ad61b731-4200-465f-afcd-1e97cc784778
+D, [2017-06-19T14:07:39.833010 #22943] DEBUG -- Pubnub::Event: Event#handle
+D, [2017-06-19T14:07:39.833391 #22943] DEBUG -- Pubnub::Event: Firing callbacks for Pubnub::Publish
+D, [2017-06-19T14:14:19.828403 #23187] DEBUG -- Pubnub::Client: Created new Pubnub::Client instance. Version: 4.0.22
+D, [2017-06-19T14:14:19.829082 #23187] DEBUG -- Pubnub::Event: Initialized Pubnub::Publish
+D, [2017-06-19T14:14:19.897358 #23187] DEBUG -- Pubnub::Publish: Fired event Pubnub::Publish
+D, [2017-06-19T14:14:19.900473 #23187] DEBUG -- Pubnub::Event: #send_request called
+D, [2017-06-19T14:14:19.902225 #23187] DEBUG -- Pubnub::SingleEvent: #request_dispatcher called
+D, [2017-06-19T14:14:19.910099 #23187] DEBUG -- Pubnub::Client: Looking for requester for async single_event
+D, [2017-06-19T14:14:19.911247 #23187] DEBUG -- Pubnub::Event: #send_request got sender
+D, [2017-06-19T14:14:19.911823 #23187] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/publish/pub-c-03c504eb-d3d1-439c-9b3e-4c3e6e75123d/sub-c-489eb5e0-550d-11e7-81f3-02ee2ddab7fe/0/chan/0/%22hello%22?ortt=%7B%22t%22%3A14978960598291358%7D&pnsdk=PubNub-Ruby%2F4.0.22&seqn=1&uuid=4253ef30-5b03-47b7-95d7-4af8674ad464
+D, [2017-06-19T14:14:20.047009 #23187] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/publish/pub-c-03c504eb-d3d1-439c-9b3e-4c3e6e75123d/sub-c-489eb5e0-550d-11e7-81f3-02ee2ddab7fe/0/chan/0/%22hello%22?ortt=%7B%22t%22%3A14978960598291358%7D&pnsdk=PubNub-Ruby%2F4.0.22&seqn=1&uuid=4253ef30-5b03-47b7-95d7-4af8674ad464
+D, [2017-06-19T14:14:20.047377 #23187] DEBUG -- Pubnub::Event: Event#handle
+D, [2017-06-19T14:14:20.047755 #23187] DEBUG -- Pubnub::Event: Firing callbacks for Pubnub::Publish
+E, [2017-06-19T14:15:15.804975 #23233] ERROR -- : Couldn't cleanly terminate all actors in 10 seconds!
+D, [2017-06-19T14:15:20.555177 #23246] DEBUG -- Pubnub::Client: Created new Pubnub::Client instance. Version: 4.0.22
+D, [2017-06-19T14:15:20.556237 #23246] DEBUG -- Pubnub::Event: Initialized Pubnub::Publish
+D, [2017-06-19T14:15:20.590258 #23246] DEBUG -- Pubnub::Publish: Fired event Pubnub::Publish
+D, [2017-06-19T14:15:20.590328 #23246] DEBUG -- Pubnub::Event: #send_request called
+D, [2017-06-19T14:15:20.629246 #23246] DEBUG -- Pubnub::SingleEvent: #request_dispatcher called
+D, [2017-06-19T14:15:20.632526 #23246] DEBUG -- Pubnub::Client: Looking for requester for async single_event
+D, [2017-06-19T14:15:20.635197 #23246] DEBUG -- Pubnub::Event: #send_request got sender
+D, [2017-06-19T14:15:20.643627 #23246] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/publish/pub-c-03c504eb-d3d1-439c-9b3e-4c3e6e75123d/sub-c-489eb5e0-550d-11e7-81f3-02ee2ddab7fe/0/chan/0/%22hello%22?ortt=%7B%22t%22%3A14978961205563168%7D&pnsdk=PubNub-Ruby%2F4.0.22&seqn=1&uuid=33709cd5-58d8-4b64-a432-fc4c13dc6335
+D, [2017-06-19T14:15:20.757319 #23246] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/publish/pub-c-03c504eb-d3d1-439c-9b3e-4c3e6e75123d/sub-c-489eb5e0-550d-11e7-81f3-02ee2ddab7fe/0/chan/0/%22hello%22?ortt=%7B%22t%22%3A14978961205563168%7D&pnsdk=PubNub-Ruby%2F4.0.22&seqn=1&uuid=33709cd5-58d8-4b64-a432-fc4c13dc6335
+D, [2017-06-19T14:15:20.757763 #23246] DEBUG -- Pubnub::Event: Event#handle
+D, [2017-06-19T14:15:20.758557 #23246] DEBUG -- Pubnub::Event: Firing callbacks for Pubnub::Publish
+D, [2017-06-19T14:16:26.426393 #23291] DEBUG -- Pubnub::Client: Created new Pubnub::Client instance. Version: 4.0.22
+D, [2017-06-19T14:16:26.426988 #23291] DEBUG -- Pubnub::Event: Initialized Pubnub::Publish
+D, [2017-06-19T14:16:26.427498 #23291] DEBUG -- Pubnub::Publish: Fired event Pubnub::Publish
+D, [2017-06-19T14:16:26.490411 #23291] DEBUG -- Pubnub::Event: #send_request called
+D, [2017-06-19T14:16:26.490485 #23291] DEBUG -- Pubnub::SingleEvent: #request_dispatcher called
+D, [2017-06-19T14:16:26.490533 #23291] DEBUG -- Pubnub::Client: Looking for requester for async single_event
+D, [2017-06-19T14:16:26.490734 #23291] DEBUG -- Pubnub::Event: #send_request got sender
+D, [2017-06-19T14:16:26.491039 #23291] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/publish/pub-c-03c504eb-d3d1-439c-9b3e-4c3e6e75123d/sub-c-489eb5e0-550d-11e7-81f3-02ee2ddab7fe/0/chan/0/%22hello%22?ortt=%7B%22t%22%3A14978961864270410%7D&pnsdk=PubNub-Ruby%2F4.0.22&seqn=1&uuid=949e2e37-8e1a-454d-811e-200fd7225440
+D, [2017-06-19T14:16:26.603001 #23291] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/publish/pub-c-03c504eb-d3d1-439c-9b3e-4c3e6e75123d/sub-c-489eb5e0-550d-11e7-81f3-02ee2ddab7fe/0/chan/0/%22hello%22?ortt=%7B%22t%22%3A14978961864270410%7D&pnsdk=PubNub-Ruby%2F4.0.22&seqn=1&uuid=949e2e37-8e1a-454d-811e-200fd7225440
+D, [2017-06-19T14:16:26.603207 #23291] DEBUG -- Pubnub::Event: Event#handle
+D, [2017-06-19T14:16:26.603475 #23291] DEBUG -- Pubnub::Event: Firing callbacks for Pubnub::Publish
+D, [2017-06-19T14:20:46.549792 #23460] DEBUG -- Pubnub::Client: Created new Pubnub::Client instance. Version: 4.0.22
+D, [2017-06-19T14:20:46.550497 #23460] DEBUG -- Pubnub::Event: Initialized Pubnub::Publish
+D, [2017-06-19T14:20:46.617994 #23460] DEBUG -- Pubnub::Publish: Fired event Pubnub::Publish
+D, [2017-06-19T14:20:46.618069 #23460] DEBUG -- Pubnub::Event: #send_request called
+D, [2017-06-19T14:20:46.618139 #23460] DEBUG -- Pubnub::SingleEvent: #request_dispatcher called
+D, [2017-06-19T14:20:46.618166 #23460] DEBUG -- Pubnub::Client: Looking for requester for async single_event
+D, [2017-06-19T14:20:46.618385 #23460] DEBUG -- Pubnub::Event: #send_request got sender
+D, [2017-06-19T14:20:46.618677 #23460] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/publish/pub-c-03c504eb-d3d1-439c-9b3e-4c3e6e75123d/sub-c-489eb5e0-550d-11e7-81f3-02ee2ddab7fe/0/chan/0/%22hello%22?ortt=%7B%22t%22%3A14978964465505490%7D&pnsdk=PubNub-Ruby%2F4.0.22&seqn=1&uuid=0751148a-65c9-4de7-b7fc-7a4b4ce1b38d
+D, [2017-06-19T14:20:46.755665 #23460] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/publish/pub-c-03c504eb-d3d1-439c-9b3e-4c3e6e75123d/sub-c-489eb5e0-550d-11e7-81f3-02ee2ddab7fe/0/chan/0/%22hello%22?ortt=%7B%22t%22%3A14978964465505490%7D&pnsdk=PubNub-Ruby%2F4.0.22&seqn=1&uuid=0751148a-65c9-4de7-b7fc-7a4b4ce1b38d
+D, [2017-06-19T14:20:46.755845 #23460] DEBUG -- Pubnub::Event: Event#handle
+D, [2017-06-19T14:20:46.794764 #23460] DEBUG -- Pubnub::Event: Firing callbacks for Pubnub::Publish
+E, [2017-06-19T14:23:02.505869 #23547] ERROR -- : Couldn't cleanly terminate all actors in 10 seconds!
+D, [2017-06-19T14:23:09.937031 #23557] DEBUG -- Pubnub::Client: Created new Pubnub::Client instance. Version: 4.0.22
+D, [2017-06-19T14:23:09.937612 #23557] DEBUG -- Pubnub::Event: Initialized Pubnub::Publish
+D, [2017-06-19T14:23:09.948782 #23557] DEBUG -- Pubnub::Publish: Fired event Pubnub::Publish
+D, [2017-06-19T14:23:09.948853 #23557] DEBUG -- Pubnub::Event: #send_request called
+D, [2017-06-19T14:23:09.948897 #23557] DEBUG -- Pubnub::SingleEvent: #request_dispatcher called
+D, [2017-06-19T14:23:09.949591 #23557] DEBUG -- Pubnub::Client: Looking for requester for async single_event
+D, [2017-06-19T14:23:09.949829 #23557] DEBUG -- Pubnub::Event: #send_request got sender
+D, [2017-06-19T14:23:09.950122 #23557] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/publish/pub-c-03c504eb-d3d1-439c-9b3e-4c3e6e75123d/sub-c-489eb5e0-550d-11e7-81f3-02ee2ddab7fe/0/chan/0/%22hello%22?ortt=%7B%22t%22%3A14978965899376660%7D&pnsdk=PubNub-Ruby%2F4.0.22&seqn=1&uuid=8bd157e4-f127-42e0-ad31-b027e8cb6d51
+D, [2017-06-19T14:23:10.057322 #23557] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/publish/pub-c-03c504eb-d3d1-439c-9b3e-4c3e6e75123d/sub-c-489eb5e0-550d-11e7-81f3-02ee2ddab7fe/0/chan/0/%22hello%22?ortt=%7B%22t%22%3A14978965899376660%7D&pnsdk=PubNub-Ruby%2F4.0.22&seqn=1&uuid=8bd157e4-f127-42e0-ad31-b027e8cb6d51
+D, [2017-06-19T14:23:10.070954 #23557] DEBUG -- Pubnub::Event: Event#handle
+D, [2017-06-19T14:23:10.124963 #23557] DEBUG -- Pubnub::Event: Firing callbacks for Pubnub::Publish
+E, [2017-06-19T14:23:40.933460 #23599] ERROR -- : Couldn't cleanly terminate all actors in 10 seconds!
+D, [2017-06-19T14:23:47.230073 #23610] DEBUG -- Pubnub::Client: Created new Pubnub::Client instance. Version: 4.0.22
+D, [2017-06-19T14:23:47.230741 #23610] DEBUG -- Pubnub::Event: Initialized Pubnub::Publish
+D, [2017-06-19T14:23:47.231240 #23610] DEBUG -- Pubnub::Publish: Fired event Pubnub::Publish
+D, [2017-06-19T14:23:47.232827 #23610] DEBUG -- Pubnub::Event: #send_request called
+D, [2017-06-19T14:23:47.232889 #23610] DEBUG -- Pubnub::SingleEvent: #request_dispatcher called
+D, [2017-06-19T14:23:47.232934 #23610] DEBUG -- Pubnub::Client: Looking for requester for async single_event
+D, [2017-06-19T14:23:47.241547 #23610] DEBUG -- Pubnub::Event: #send_request got sender
+D, [2017-06-19T14:23:47.241867 #23610] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/publish/pub-c-03c504eb-d3d1-439c-9b3e-4c3e6e75123d/sub-c-489eb5e0-550d-11e7-81f3-02ee2ddab7fe/0/chan/0/%22hello%22?ortt=%7B%22t%22%3A14978966272307790%7D&pnsdk=PubNub-Ruby%2F4.0.22&seqn=1&uuid=b0f23b84-8ed5-42c5-b469-6ab8bcc501b4
+D, [2017-06-19T14:23:47.603240 #23610] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/publish/pub-c-03c504eb-d3d1-439c-9b3e-4c3e6e75123d/sub-c-489eb5e0-550d-11e7-81f3-02ee2ddab7fe/0/chan/0/%22hello%22?ortt=%7B%22t%22%3A14978966272307790%7D&pnsdk=PubNub-Ruby%2F4.0.22&seqn=1&uuid=b0f23b84-8ed5-42c5-b469-6ab8bcc501b4
+D, [2017-06-19T14:23:47.604037 #23610] DEBUG -- Pubnub::Event: Event#handle
+D, [2017-06-19T14:23:47.604944 #23610] DEBUG -- Pubnub::Event: Firing callbacks for Pubnub::Publish
+D, [2017-06-19T14:24:14.221708 #23642] DEBUG -- Pubnub::Client: Created new Pubnub::Client instance. Version: 4.0.22
+D, [2017-06-19T14:24:14.222575 #23642] DEBUG -- Pubnub::Event: Initialized Pubnub::Publish
+D, [2017-06-19T14:24:14.223046 #23642] DEBUG -- Pubnub::Publish: Fired event Pubnub::Publish
+D, [2017-06-19T14:24:14.223094 #23642] DEBUG -- Pubnub::Event: #send_request called
+D, [2017-06-19T14:24:14.223121 #23642] DEBUG -- Pubnub::SingleEvent: #request_dispatcher called
+D, [2017-06-19T14:24:14.223148 #23642] DEBUG -- Pubnub::Client: Looking for requester for async single_event
+D, [2017-06-19T14:24:14.263422 #23642] DEBUG -- Pubnub::Event: #send_request got sender
+D, [2017-06-19T14:24:14.263766 #23642] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/publish/pub-c-03c504eb-d3d1-439c-9b3e-4c3e6e75123d/sub-c-489eb5e0-550d-11e7-81f3-02ee2ddab7fe/0/chan/0/%22hello%22?ortt=%7B%22t%22%3A14978966542226188%7D&pnsdk=PubNub-Ruby%2F4.0.22&seqn=1&uuid=44f1e798-83b3-439d-b3ff-cf902ea17c72
+D, [2017-06-19T14:24:14.609332 #23642] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/publish/pub-c-03c504eb-d3d1-439c-9b3e-4c3e6e75123d/sub-c-489eb5e0-550d-11e7-81f3-02ee2ddab7fe/0/chan/0/%22hello%22?ortt=%7B%22t%22%3A14978966542226188%7D&pnsdk=PubNub-Ruby%2F4.0.22&seqn=1&uuid=44f1e798-83b3-439d-b3ff-cf902ea17c72
+D, [2017-06-19T14:24:14.609678 #23642] DEBUG -- Pubnub::Event: Event#handle
+D, [2017-06-19T14:24:14.609952 #23642] DEBUG -- Pubnub::Event: Firing callbacks for Pubnub::Publish
+E, [2017-06-19T14:27:47.145212 #23742] ERROR -- : Couldn't cleanly terminate all actors in 10 seconds!

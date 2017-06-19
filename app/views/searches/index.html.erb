@@ -2,7 +2,15 @@
 
 <%= form_tag "/searches", method: :get do %>
   <div>
-    Inquiry: <div><textarea name="search" cols="30" rows="10"></textarea></div>
+    <select name="search">
+      <option value="general_health" >General Health</option>
+      <option value="mental_health">Mental Health</option>
+    </select>
+  </div>
+
+  Select Zip Code:
+  <div>
+    <input type="text" name="zip">
   </div>
  
   Select Borough:
@@ -20,6 +28,7 @@
   <% @search_results.each do |result| %>
     <div>
       <p><%= result.name %></p>
+      <p><%= result.name_2 if result.name_2 %></p>
       <p><%= result.address %></p>
       <p><%= result.zip %></p>
       <p><%= result.phone %></p>
