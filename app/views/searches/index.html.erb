@@ -1,7 +1,11 @@
 <h1>Tell me your problems.</h1>
 
 <%= form_tag "/searches", method: :get do %>
-  Inquiry: <textarea name="search" cols="30" rows="10"></textarea>
+  <div>
+    Inquiry: <div><textarea name="search" cols="30" rows="10"></textarea></div>
+  </div>
+ 
+  Select Borough:
   <select name="borough">
     <option value="Brooklyn" <%= 'selected' if @borough == "Brooklyn" %>>Brooklyn</option>
     <option value="Manhattan" <%= 'selected' if @borough == "Manhattan" %>>Manhattan</option>
