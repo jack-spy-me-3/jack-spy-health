@@ -12,5 +12,6 @@
 //
 //= require rails-ujs
 //= require angular
+//= require pubnub
 //= require app
 //= require_tree .
