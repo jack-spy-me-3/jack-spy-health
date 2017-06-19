@@ -40,6 +40,7 @@ group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem 'seed_dump'
   gem 'dotenv-rails'
+  gem 'pry'
 end
 
 group :development do

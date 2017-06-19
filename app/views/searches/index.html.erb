@@ -1,0 +1,24 @@
+<h1>Tell me your problems.</h1>
+
+<%= form_tag "/searches", method: :get do %>
+  Inquiry: <textarea name="search" cols="30" rows="10"></textarea>
+  <select name="borough">
+    <option value="Brooklyn" <%= 'selected' if @borough == "Brooklyn" %>>Brooklyn</option>
+    <option value="Manhattan" <%= 'selected' if @borough == "Manhattan" %>>Manhattan</option>
+    <option value="Queens" <%= 'selected' if @borough == "Queens" %>>Queens</option>
+    <option value="Bronx" <%= 'selected' if @borough == "Bronx" %>>Bronx</option>
+    <option value="Staten Island" <%= 'selected' if @borough == "Staten Island" %>>Staten Island</option>
+  </select>
+  <input type="submit" value="Search">
+<% end %>
+
+<% if @search_results && @search_results.any? %>
+  <% @search_results.each do |result| %>
+    <div>
+      <p><%= result.name %></p>
+      <p><%= result.address %></p>
+      <p><%= result.zip %></p>
+      <p><%= result.phone %></p>
+    </div>
+  <% end %>
+<% end %>
