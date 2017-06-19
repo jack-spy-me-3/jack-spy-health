@@ -89,3 +89,15 @@ D, [2017-06-19T13:33:57.398209 #22020] DEBUG -- Pubnub::Event: Requested URI: ht
 D, [2017-06-19T13:33:57.453119 #22020] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/publish/pub-c-03c504eb-d3d1-439c-9b3e-4c3e6e75123d/sub-c-489eb5e0-550d-11e7-81f3-02ee2ddab7fe/0/chan/0/%22hello%22?ortt=%7B%22t%22%3A14978936373714392%7D&pnsdk=PubNub-Ruby%2F4.0.22&seqn=1&uuid=6db061db-086b-4d83-a700-d0914a5f40c3
 D, [2017-06-19T13:33:57.454148 #22020] DEBUG -- Pubnub::Event: Event#handle
 D, [2017-06-19T13:33:57.455206 #22020] DEBUG -- Pubnub::Event: Firing callbacks for Pubnub::Publish
+E, [2017-06-19T13:56:50.407807 #22608] ERROR -- : Couldn't cleanly terminate all actors in 10 seconds!
+D, [2017-06-19T13:56:57.861488 #22619] DEBUG -- Pubnub::Client: Created new Pubnub::Client instance. Version: 4.0.22
+D, [2017-06-19T13:56:57.862082 #22619] DEBUG -- Pubnub::Event: Initialized Pubnub::Publish
+D, [2017-06-19T13:56:57.865222 #22619] DEBUG -- Pubnub::Publish: Fired event Pubnub::Publish
+D, [2017-06-19T13:56:57.876421 #22619] DEBUG -- Pubnub::Event: #send_request called
+D, [2017-06-19T13:56:57.876484 #22619] DEBUG -- Pubnub::SingleEvent: #request_dispatcher called
+D, [2017-06-19T13:56:57.876512 #22619] DEBUG -- Pubnub::Client: Looking for requester for async single_event
+D, [2017-06-19T13:56:57.876722 #22619] DEBUG -- Pubnub::Event: #send_request got sender
+D, [2017-06-19T13:56:57.877033 #22619] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/publish/pub-c-03c504eb-d3d1-439c-9b3e-4c3e6e75123d/sub-c-489eb5e0-550d-11e7-81f3-02ee2ddab7fe/0/chan/0/%22hello%22?ortt=%7B%22t%22%3A14978950178621362%7D&pnsdk=PubNub-Ruby%2F4.0.22&seqn=1&uuid=d3c05872-665c-4a71-b37f-21a31f8485c1
+D, [2017-06-19T13:56:57.989559 #22619] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/publish/pub-c-03c504eb-d3d1-439c-9b3e-4c3e6e75123d/sub-c-489eb5e0-550d-11e7-81f3-02ee2ddab7fe/0/chan/0/%22hello%22?ortt=%7B%22t%22%3A14978950178621362%7D&pnsdk=PubNub-Ruby%2F4.0.22&seqn=1&uuid=d3c05872-665c-4a71-b37f-21a31f8485c1
+D, [2017-06-19T13:56:58.002901 #22619] DEBUG -- Pubnub::Event: Event#handle
+D, [2017-06-19T13:56:58.003114 #22619] DEBUG -- Pubnub::Event: Firing callbacks for Pubnub::Publish
