@@ -1,7 +1,43 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rails db:seed command (or created alongside the database with db:setup).
-#
-# Examples:
-#
-#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
-#   Character.create(name: 'Luke', movie: movies.first)
+HealthCenter.create!([
+  {borough: "Bronx", address: "1276 Fulton Avenue, Suite 401-402", name: "Bronx-Lebanon Hospital Center", phone: "(718) 466-6072", zip: "10456"},
+  {borough: "Bronx", address: "1265 Franklin Avenue", name: "Comprehensive Family Care Center", phone: "(718) 579-2500 ", zip: "10456"},
+  {borough: "Bronx", address: "(Montefiore) 1621 Eastchester Road", name: "Dr. Martin Luther King Jr. Health Center", phone: "(718) 503-7714 ", zip: "10461"},
+  {borough: "Bronx", address: "360 East 193rd Street", name: "Montefiore Family Health Center", phone: " (718) 933-2400", zip: "10458"},
+  {borough: "Bronx", address: "305 East 161st Street", name: "Montefiore Medical Group Comprehensive HCC", phone: "(718) 579-2597 ", zip: "10451"},
+  {borough: "Bronx", address: "Morris Heights Health Center", name: "Morris Heights Health Center", phone: "(718) 716-4400 ", zip: "10453"},
+  {borough: "Bronx", address: "731 White Plains Road", name: "Soundview Health Center", phone: "(718) 589-2232 ", zip: "10473"},
+  {borough: "Bronx", address: "1065 Southern Boulevard", name: "Urban Health Plan", phone: " (718) 991-4833", zip: "10459"},
+  {borough: "Brooklyn", address: "1413 Fulton Street", name: "Bedford/Stuyvesant Family Health Center", phone: "(718) 636-4500", zip: "11216"},
+  {borough: "Brooklyn", address: "650 Fulton Street", name: "Brooklyn Plaza Medical Center", phone: "(718) 596-9896", zip: "11217"},
+  {borough: "Brooklyn", address: "592 Rockaway Avenue", name: "Brownsville Multi-Service Family Health Center", phone: "(718) 345-5000 ", zip: "11212"},
+  {borough: "Brooklyn", address: "94-98 Manhattan Ave.", name: "Community Health Care Network - CABS Health Center", phone: "(718) 388-0390", zip: "11206"},
+  {borough: "Brooklyn", address: "Caribbean House Health Center", name: "Community Health Care Network ", phone: "(718) 778-0198 ", zip: "11225"},
+  {borough: "Brooklyn", address: "Dr. Betty Shabazz Health Center", name: "Community Health Care Network ", phone: "(718) 277-8303 ", zip: "11208"},
+  {borough: "Brooklyn", address: "571 McDonald Avenue", name: "Ezra Medical Center", phone: "(718) 686-7600 ", zip: "11213"},
+  {borough: "Brooklyn", address: "14-16 Heyward Street", name: "ODA Primary Care Health Center", phone: "(718) 260-4600 ", zip: "11211"},
+  {borough: "Brooklyn", address: "150 55th Street", name: "Sunset Park Family Health Center", phone: "(718) 630-7095 ", zip: "11220"},
+  {borough: "Brooklyn", address: "9711 Third Avenue", name: "Sunset Park Family Health Center", phone: "(718) 759-9126 ", zip: "11209"},
+  {borough: "Brooklyn", address: "812 54th Street", name: "Sunset Park Family Health Center Brooklyn-Chinese Family Health Center", phone: "(718) 686-2680 ", zip: "11220"},
+  {borough: "Brooklyn", address: "3414 Church Avenue", name: "Sunset Park Family Health Center Caribbean-American Family Health Center", phone: "(718) 940-9425 ", zip: "12203"},
+  {borough: "Brooklyn", address: "5616 6th Avenue", name: "Sunset Park Family Health Center Family Physician Family Health Center", phone: "(718) 439-5440 ", zip: "11220"},
+  {borough: "Brooklyn", address: "6317 4th Avenue", name: "Sunset Park Family Health Center Park Ridge Family Health Center", phone: "(718) 907-8100 ", zip: "11220"},
+  {borough: "Brooklyn", address: "220 13th Street", name: "Sunset Park Family Health Center", phone: "(718) 832-5980 ", zip: "11215"},
+  {borough: "Brooklyn", address: "9000 Shore Road", name: "Sunset Park Family Health Center", phone: "(718) 630-8878 ", zip: "11209"},
+  {borough: "Brooklyn", address: "514 49th Street", name: "Sunset Park Family Health Center", phone: "(718) 854-1851 ", zip: "11220"},
+  {borough: "Manhattan", address: "280 Henry Street", name: "Betances Health Center", phone: "(212) 227-8408 ", zip: "10002"},
+  {borough: "Manhattan", address: "2253 Third Avenue", name: "Boriken Neighborhood Health Center", phone: "(212) 289-6650 ", zip: "10035"},
+  {borough: "Manhattan", address: "356 West 18th Street", name: "Callen-Lorde Community Health Center", phone: "(212) 271-7200 ", zip: "10011"},
+  {borough: "Manhattan", address: "268 Canal Street", name: "Charles B. Wang Community Health Center", phone: "(212) 379-6988 ", zip: "10013"},
+  {borough: "Manhattan", address: "79 Madison Avenue", name: "Community Health Care Network", phone: "(212) 366-4500 ", zip: "10016"},
+  {borough: "Manhattan", address: "1727 Amsterdam Avenue", name: "Heritage Health Care", phone: "(212) 862-0054 ", zip: "10031"},
+  {borough: "Manhattan", address: "16 East 16th Street", name: "Institute for Urban Family Health", phone: "(212) 633-0800 ", zip: "10003"},
+  {borough: "Manhattan", address: "645 Tenth Avenue", name: "Ryan/Chelsea-Clinton Community Health Center", phone: "(212) 265-4500 ", zip: "10036"},
+  {borough: "Manhattan", address: "212 East 106th Street", name: "Settlement Health & Medical Services", phone: "(212) 360-2661", zip: "10029"},
+  {borough: "Manhattan", address: "110 West 97th Street", name: "William F. Ryan Community Health Center", phone: "(212) 316-7906 ", zip: "10025"},
+  {borough: "Queens", address: "136-26 37th Ave - 2nd Fl", name: "Charles B. Wang Community Health Center", phone: "(718) 886-1200 ", zip: "11345"},
+  {borough: "Queens", address: "97-04 Sutphin Blvd", name: "Community Health Care Network", phone: "(718) 657-7088", zip: "11435"},
+  {borough: "Queens", address: "41-40 27th Street", name: "The Floating Hospital", phone: "(718) 784-2240", zip: "11101"},
+  {borough: "Queens", address: "6200 Beach Channel Drive", name: "Joseph P. Addabbo Family Health Center", phone: "(718) 634-2155 ", zip: "11692"},
+  {borough: "Queens", address: "137-50 Jamaica Avenue", name: "Project Samaritan Health Services /", phone: "(718) 298-5100 ", zip: "11435"},
+  {borough: "Staten Island", address: "235 Port Richmond Avenue", name: "Staten Island ", phone: "(718) 876-1732", zip: "10302"}
+])
